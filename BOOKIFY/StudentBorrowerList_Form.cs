@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,12 +17,11 @@ namespace BOOKIFY
         public StudentBorrowerList_Form()
         {
             InitializeComponent();
+            studentList student = new studentList();
+            ArrayList bookList = student.GetStudents();
+            convertArrayListtoDataTable dt = new convertArrayListtoDataTable(bookList);
 
-            //sample data for datagridview
-            for (int i = 0; i < 100; i++)
-            {
-                dataGridViewStudentBorrowerList.Rows.Add(new object[] { });
-            }
+            dataGridViewStudentBorrowerList.DataSource = dt.GetDataTable(bookList);
         }
 
 
@@ -61,6 +61,38 @@ namespace BOOKIFY
 
             // Show the TeacherForm
             studentForm.Show();
+        }
+
+        private void customComboBoxSort_OnSelectedIndexChanged(object sender, EventArgs e)
+        {
+            string keyword = customComboBoxSort.SelectedItem.ToString();
+
+            if (keyword != "All")
+            {
+                for (int i = 0; i < this.dataGridViewStudentBorrowerList.Rows.Count; i++)
+                {
+                    if (dataGridViewStudentBorrowerList.Rows[i].Cells[5].Value.ToString() == keyword)
+                    {
+                        dataGridViewStudentBorrowerList.Rows[i].Visible = true;
+                    }
+                    else
+                    {
+                        CurrencyManager currencyManager1 = (CurrencyManager)BindingContext[dataGridViewStudentBorrowerList.DataSource];
+                        currencyManager1.SuspendBinding();
+                        dataGridViewStudentBorrowerList.Rows[i].Visible = false;
+                        currencyManager1.ResumeBinding();
+
+                    }
+                }
+            }
+
+            else
+            {
+                for (int i = 0; i < this.dataGridViewStudentBorrowerList.Rows.Count; i++)
+                {
+                    dataGridViewStudentBorrowerList.Rows[i].Visible = true;
+                }
+            }
         }
     }
 }

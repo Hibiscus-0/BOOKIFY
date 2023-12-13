@@ -181,6 +181,7 @@
     <Compile Include="BorrowedPopup_Form.Designer.cs">
       <DependentUpon>BorrowedPopup_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logic.cs" />
     <Compile Include="CustomComboBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -346,6 +347,9 @@
     <EmbeddedResource Include="TeachersBorrowerList_Form.resx">
       <DependentUpon>TeachersBorrowerList_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="database\Books.tsv" />
+    <None Include="database\Students.tsv" />
+    <None Include="database\Teachers.tsv" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Data.datasource" />
     <None Include="Properties\Settings.settings">

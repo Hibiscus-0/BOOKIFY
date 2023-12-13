@@ -58,11 +58,6 @@
             this.tableLayoutPanelBorrowerListContent = new System.Windows.Forms.TableLayoutPanel();
             this.panelDatagridViewStudentBorrower = new System.Windows.Forms.Panel();
             this.dataGridViewStudentBorrowerList = new System.Windows.Forms.DataGridView();
-            this.StudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StudentName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.YearLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Section = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StudentActiveStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelHistoryTransactionHolder = new System.Windows.Forms.Panel();
             this.panelHistoryTransaction = new System.Windows.Forms.Panel();
             this.panelBorrowersHeaderHolder.SuspendLayout();
@@ -386,6 +381,7 @@
             this.customComboBoxSort.Size = new System.Drawing.Size(208, 50);
             this.customComboBoxSort.TabIndex = 6;
             this.customComboBoxSort.Texts = "Status";
+            this.customComboBoxSort.OnSelectedIndexChanged += new System.EventHandler(this.customComboBoxSort_OnSelectedIndexChanged);
             // 
             // panelSearch
             // 
@@ -550,12 +546,6 @@
             this.dataGridViewStudentBorrowerList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewStudentBorrowerList.ColumnHeadersHeight = 60;
             this.dataGridViewStudentBorrowerList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewStudentBorrowerList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.StudentID,
-            this.StudentName,
-            this.YearLevel,
-            this.Section,
-            this.StudentActiveStatus});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -593,36 +583,6 @@
             this.dataGridViewStudentBorrowerList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewStudentBorrowerList.Size = new System.Drawing.Size(395, 590);
             this.dataGridViewStudentBorrowerList.TabIndex = 10;
-            // 
-            // StudentID
-            // 
-            this.StudentID.HeaderText = "ID";
-            this.StudentID.Name = "StudentID";
-            this.StudentID.ReadOnly = true;
-            // 
-            // StudentName
-            // 
-            this.StudentName.HeaderText = "Name";
-            this.StudentName.Name = "StudentName";
-            this.StudentName.ReadOnly = true;
-            // 
-            // YearLevel
-            // 
-            this.YearLevel.HeaderText = "Year Level";
-            this.YearLevel.Name = "YearLevel";
-            this.YearLevel.ReadOnly = true;
-            // 
-            // Section
-            // 
-            this.Section.HeaderText = "Section";
-            this.Section.Name = "Section";
-            this.Section.ReadOnly = true;
-            // 
-            // StudentActiveStatus
-            // 
-            this.StudentActiveStatus.HeaderText = "Status";
-            this.StudentActiveStatus.Name = "StudentActiveStatus";
-            this.StudentActiveStatus.ReadOnly = true;
             // 
             // panelHistoryTransactionHolder
             // 
@@ -695,11 +655,6 @@
         private System.Windows.Forms.Panel panelHistoryTransactionHolder;
         private System.Windows.Forms.Panel panelHistoryTransaction;
         private System.Windows.Forms.DataGridView dataGridViewStudentBorrowerList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn StudentID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn StudentName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn YearLevel;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Section;
-        private System.Windows.Forms.DataGridViewTextBoxColumn StudentActiveStatus;
         private RoundedPanel roundedPanelComboBox;
         private CustomComboBox customComboBoxSort;
     }

@@ -44,41 +44,34 @@
             this.panelSecondSection = new System.Windows.Forms.Panel();
             this.tableLayoutPanelSecondSection = new System.Windows.Forms.TableLayoutPanel();
             this.panelComboBoxSortGenre = new System.Windows.Forms.Panel();
-            this.roundedPanelomboBoxSortGenre = new BOOKIFY.RoundedPanel();
-            this.customComboBoxSortGenre = new BOOKIFY.CustomComboBox();
             this.panelComboBoxSortCategory = new System.Windows.Forms.Panel();
-            this.roundedPanelComboBox = new BOOKIFY.RoundedPanel();
-            this.customComboBoxSortCategory = new BOOKIFY.CustomComboBox();
             this.panelAddbtn = new System.Windows.Forms.Panel();
             this.rjButtonBorrow = new RJCodeAdvance.RJControls.RJButton();
             this.panelComboBoxomboBoxFilterStatus = new System.Windows.Forms.Panel();
-            this.roundedPanelComboBoxFilterStatus = new BOOKIFY.RoundedPanel();
-            this.customComboBoxFilterStatus = new BOOKIFY.CustomComboBox();
             this.panelSearchBook = new System.Windows.Forms.Panel();
             this.bunifuTextBoxSearchBook = new Bunifu.UI.WinForms.BunifuTextBox();
             this.panelBookTable = new System.Windows.Forms.Panel();
             this.dataGridViewStudentBorrowerList = new System.Windows.Forms.DataGridView();
-            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ISBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Genre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Publisher = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Copyright = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BookStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.roundedPanelomboBoxSortGenre = new BOOKIFY.RoundedPanel();
+            this.customComboBoxSortGenre = new BOOKIFY.CustomComboBox();
+            this.roundedPanelComboBox = new BOOKIFY.RoundedPanel();
+            this.customComboBoxSortCategory = new BOOKIFY.CustomComboBox();
+            this.roundedPanelComboBoxFilterStatus = new BOOKIFY.RoundedPanel();
+            this.customComboBoxFilterStatus = new BOOKIFY.CustomComboBox();
             this.panelBooksHeader.SuspendLayout();
             this.panelBooks.SuspendLayout();
             this.panelSecondSection.SuspendLayout();
             this.tableLayoutPanelSecondSection.SuspendLayout();
             this.panelComboBoxSortGenre.SuspendLayout();
-            this.roundedPanelomboBoxSortGenre.SuspendLayout();
             this.panelComboBoxSortCategory.SuspendLayout();
-            this.roundedPanelComboBox.SuspendLayout();
             this.panelAddbtn.SuspendLayout();
             this.panelComboBoxomboBoxFilterStatus.SuspendLayout();
-            this.roundedPanelComboBoxFilterStatus.SuspendLayout();
             this.panelSearchBook.SuspendLayout();
             this.panelBookTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudentBorrowerList)).BeginInit();
+            this.roundedPanelomboBoxSortGenre.SuspendLayout();
+            this.roundedPanelComboBox.SuspendLayout();
+            this.roundedPanelComboBoxFilterStatus.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelBooksHeader
@@ -158,39 +151,6 @@
             this.panelComboBoxSortGenre.Size = new System.Drawing.Size(138, 72);
             this.panelComboBoxSortGenre.TabIndex = 10;
             // 
-            // roundedPanelomboBoxSortGenre
-            // 
-            this.roundedPanelomboBoxSortGenre.BackgroundColor = System.Drawing.Color.White;
-            this.roundedPanelomboBoxSortGenre.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.roundedPanelomboBoxSortGenre.BorderWidth = 3F;
-            this.roundedPanelomboBoxSortGenre.Controls.Add(this.customComboBoxSortGenre);
-            this.roundedPanelomboBoxSortGenre.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roundedPanelomboBoxSortGenre.Location = new System.Drawing.Point(10, 10);
-            this.roundedPanelomboBoxSortGenre.Margin = new System.Windows.Forms.Padding(0);
-            this.roundedPanelomboBoxSortGenre.Name = "roundedPanelomboBoxSortGenre";
-            this.roundedPanelomboBoxSortGenre.Padding = new System.Windows.Forms.Padding(3);
-            this.roundedPanelomboBoxSortGenre.Radius = 10;
-            this.roundedPanelomboBoxSortGenre.Size = new System.Drawing.Size(118, 52);
-            this.roundedPanelomboBoxSortGenre.TabIndex = 3;
-            // 
-            // customComboBoxSortGenre
-            // 
-            this.customComboBoxSortGenre.BackColor = System.Drawing.Color.White;
-            this.customComboBoxSortGenre.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxSortGenre.BorderRadius = 10;
-            this.customComboBoxSortGenre.BorderSize = 0;
-            this.customComboBoxSortGenre.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customComboBoxSortGenre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.customComboBoxSortGenre.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customComboBoxSortGenre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxSortGenre.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxSortGenre.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxSortGenre.Location = new System.Drawing.Point(3, 3);
-            this.customComboBoxSortGenre.Name = "customComboBoxSortGenre";
-            this.customComboBoxSortGenre.Size = new System.Drawing.Size(112, 46);
-            this.customComboBoxSortGenre.TabIndex = 6;
-            this.customComboBoxSortGenre.Texts = "Genre";
-            // 
             // panelComboBoxSortCategory
             // 
             this.panelComboBoxSortCategory.Controls.Add(this.roundedPanelComboBox);
@@ -201,44 +161,6 @@
             this.panelComboBoxSortCategory.Padding = new System.Windows.Forms.Padding(10);
             this.panelComboBoxSortCategory.Size = new System.Drawing.Size(138, 72);
             this.panelComboBoxSortCategory.TabIndex = 9;
-            // 
-            // roundedPanelComboBox
-            // 
-            this.roundedPanelComboBox.BackgroundColor = System.Drawing.Color.White;
-            this.roundedPanelComboBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.roundedPanelComboBox.BorderWidth = 3F;
-            this.roundedPanelComboBox.Controls.Add(this.customComboBoxSortCategory);
-            this.roundedPanelComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roundedPanelComboBox.Location = new System.Drawing.Point(10, 10);
-            this.roundedPanelComboBox.Margin = new System.Windows.Forms.Padding(0);
-            this.roundedPanelComboBox.Name = "roundedPanelComboBox";
-            this.roundedPanelComboBox.Padding = new System.Windows.Forms.Padding(3);
-            this.roundedPanelComboBox.Radius = 10;
-            this.roundedPanelComboBox.Size = new System.Drawing.Size(118, 52);
-            this.roundedPanelComboBox.TabIndex = 2;
-            // 
-            // customComboBoxSortCategory
-            // 
-            this.customComboBoxSortCategory.BackColor = System.Drawing.Color.White;
-            this.customComboBoxSortCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxSortCategory.BorderRadius = 10;
-            this.customComboBoxSortCategory.BorderSize = 0;
-            this.customComboBoxSortCategory.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customComboBoxSortCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.customComboBoxSortCategory.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customComboBoxSortCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxSortCategory.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxSortCategory.Items.AddRange(new object[] {
-            "All",
-            "Fiction",
-            "Non-Fiction",
-            "Academic"});
-            this.customComboBoxSortCategory.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxSortCategory.Location = new System.Drawing.Point(3, 3);
-            this.customComboBoxSortCategory.Name = "customComboBoxSortCategory";
-            this.customComboBoxSortCategory.Size = new System.Drawing.Size(112, 46);
-            this.customComboBoxSortCategory.TabIndex = 6;
-            this.customComboBoxSortCategory.Texts = "Category";
             // 
             // panelAddbtn
             // 
@@ -282,44 +204,6 @@
             this.panelComboBoxomboBoxFilterStatus.Padding = new System.Windows.Forms.Padding(10);
             this.panelComboBoxomboBoxFilterStatus.Size = new System.Drawing.Size(138, 72);
             this.panelComboBoxomboBoxFilterStatus.TabIndex = 7;
-            // 
-            // roundedPanelComboBoxFilterStatus
-            // 
-            this.roundedPanelComboBoxFilterStatus.BackgroundColor = System.Drawing.Color.White;
-            this.roundedPanelComboBoxFilterStatus.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.roundedPanelComboBoxFilterStatus.BorderWidth = 3F;
-            this.roundedPanelComboBoxFilterStatus.Controls.Add(this.customComboBoxFilterStatus);
-            this.roundedPanelComboBoxFilterStatus.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roundedPanelComboBoxFilterStatus.Location = new System.Drawing.Point(10, 10);
-            this.roundedPanelComboBoxFilterStatus.Margin = new System.Windows.Forms.Padding(0);
-            this.roundedPanelComboBoxFilterStatus.Name = "roundedPanelComboBoxFilterStatus";
-            this.roundedPanelComboBoxFilterStatus.Padding = new System.Windows.Forms.Padding(3);
-            this.roundedPanelComboBoxFilterStatus.Radius = 10;
-            this.roundedPanelComboBoxFilterStatus.Size = new System.Drawing.Size(118, 52);
-            this.roundedPanelComboBoxFilterStatus.TabIndex = 2;
-            // 
-            // customComboBoxFilterStatus
-            // 
-            this.customComboBoxFilterStatus.BackColor = System.Drawing.Color.White;
-            this.customComboBoxFilterStatus.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxFilterStatus.BorderRadius = 10;
-            this.customComboBoxFilterStatus.BorderSize = 0;
-            this.customComboBoxFilterStatus.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customComboBoxFilterStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.customComboBoxFilterStatus.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customComboBoxFilterStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxFilterStatus.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxFilterStatus.Items.AddRange(new object[] {
-            "All",
-            "Available",
-            "Reserved",
-            "Borrowed"});
-            this.customComboBoxFilterStatus.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxFilterStatus.Location = new System.Drawing.Point(3, 3);
-            this.customComboBoxFilterStatus.Name = "customComboBoxFilterStatus";
-            this.customComboBoxFilterStatus.Size = new System.Drawing.Size(112, 46);
-            this.customComboBoxFilterStatus.TabIndex = 6;
-            this.customComboBoxFilterStatus.Texts = "Status";
             // 
             // panelSearchBook
             // 
@@ -445,14 +329,6 @@
             this.dataGridViewStudentBorrowerList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewStudentBorrowerList.ColumnHeadersHeight = 60;
             this.dataGridViewStudentBorrowerList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewStudentBorrowerList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Title,
-            this.ISBN,
-            this.Category,
-            this.Genre,
-            this.Publisher,
-            this.Copyright,
-            this.BookStatus});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -491,47 +367,116 @@
             this.dataGridViewStudentBorrowerList.Size = new System.Drawing.Size(713, 609);
             this.dataGridViewStudentBorrowerList.TabIndex = 12;
             // 
-            // Title
+            // roundedPanelomboBoxSortGenre
             // 
-            this.Title.HeaderText = "Title";
-            this.Title.Name = "Title";
-            this.Title.ReadOnly = true;
+            this.roundedPanelomboBoxSortGenre.BackgroundColor = System.Drawing.Color.White;
+            this.roundedPanelomboBoxSortGenre.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.roundedPanelomboBoxSortGenre.BorderWidth = 3F;
+            this.roundedPanelomboBoxSortGenre.Controls.Add(this.customComboBoxSortGenre);
+            this.roundedPanelomboBoxSortGenre.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roundedPanelomboBoxSortGenre.Location = new System.Drawing.Point(10, 10);
+            this.roundedPanelomboBoxSortGenre.Margin = new System.Windows.Forms.Padding(0);
+            this.roundedPanelomboBoxSortGenre.Name = "roundedPanelomboBoxSortGenre";
+            this.roundedPanelomboBoxSortGenre.Padding = new System.Windows.Forms.Padding(3);
+            this.roundedPanelomboBoxSortGenre.Radius = 10;
+            this.roundedPanelomboBoxSortGenre.Size = new System.Drawing.Size(118, 52);
+            this.roundedPanelomboBoxSortGenre.TabIndex = 3;
             // 
-            // ISBN
+            // customComboBoxSortGenre
             // 
-            this.ISBN.HeaderText = "ISBN";
-            this.ISBN.Name = "ISBN";
-            this.ISBN.ReadOnly = true;
+            this.customComboBoxSortGenre.BackColor = System.Drawing.Color.White;
+            this.customComboBoxSortGenre.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxSortGenre.BorderRadius = 10;
+            this.customComboBoxSortGenre.BorderSize = 0;
+            this.customComboBoxSortGenre.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customComboBoxSortGenre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.customComboBoxSortGenre.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customComboBoxSortGenre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxSortGenre.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxSortGenre.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxSortGenre.Location = new System.Drawing.Point(3, 3);
+            this.customComboBoxSortGenre.Name = "customComboBoxSortGenre";
+            this.customComboBoxSortGenre.Size = new System.Drawing.Size(112, 46);
+            this.customComboBoxSortGenre.TabIndex = 6;
+            this.customComboBoxSortGenre.Texts = "Genre";
             // 
-            // Category
+            // roundedPanelComboBox
             // 
-            this.Category.HeaderText = "Category";
-            this.Category.Name = "Category";
-            this.Category.ReadOnly = true;
+            this.roundedPanelComboBox.BackgroundColor = System.Drawing.Color.White;
+            this.roundedPanelComboBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.roundedPanelComboBox.BorderWidth = 3F;
+            this.roundedPanelComboBox.Controls.Add(this.customComboBoxSortCategory);
+            this.roundedPanelComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roundedPanelComboBox.Location = new System.Drawing.Point(10, 10);
+            this.roundedPanelComboBox.Margin = new System.Windows.Forms.Padding(0);
+            this.roundedPanelComboBox.Name = "roundedPanelComboBox";
+            this.roundedPanelComboBox.Padding = new System.Windows.Forms.Padding(3);
+            this.roundedPanelComboBox.Radius = 10;
+            this.roundedPanelComboBox.Size = new System.Drawing.Size(118, 52);
+            this.roundedPanelComboBox.TabIndex = 2;
             // 
-            // Genre
+            // customComboBoxSortCategory
             // 
-            this.Genre.HeaderText = "Genre";
-            this.Genre.Name = "Genre";
-            this.Genre.ReadOnly = true;
+            this.customComboBoxSortCategory.BackColor = System.Drawing.Color.White;
+            this.customComboBoxSortCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxSortCategory.BorderRadius = 10;
+            this.customComboBoxSortCategory.BorderSize = 0;
+            this.customComboBoxSortCategory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customComboBoxSortCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.customComboBoxSortCategory.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customComboBoxSortCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxSortCategory.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxSortCategory.Items.AddRange(new object[] {
+            "All",
+            "Fiction",
+            "Non-Fiction",
+            "Academic"});
+            this.customComboBoxSortCategory.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxSortCategory.Location = new System.Drawing.Point(3, 3);
+            this.customComboBoxSortCategory.Name = "customComboBoxSortCategory";
+            this.customComboBoxSortCategory.Size = new System.Drawing.Size(112, 46);
+            this.customComboBoxSortCategory.TabIndex = 6;
+            this.customComboBoxSortCategory.Texts = "Category";
+            this.customComboBoxSortCategory.OnSelectedIndexChanged += new System.EventHandler(this.customComboBoxSortCategory_OnSelectedIndexChanged);
             // 
-            // Publisher
+            // roundedPanelComboBoxFilterStatus
             // 
-            this.Publisher.HeaderText = "Publisher";
-            this.Publisher.Name = "Publisher";
-            this.Publisher.ReadOnly = true;
+            this.roundedPanelComboBoxFilterStatus.BackgroundColor = System.Drawing.Color.White;
+            this.roundedPanelComboBoxFilterStatus.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.roundedPanelComboBoxFilterStatus.BorderWidth = 3F;
+            this.roundedPanelComboBoxFilterStatus.Controls.Add(this.customComboBoxFilterStatus);
+            this.roundedPanelComboBoxFilterStatus.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roundedPanelComboBoxFilterStatus.Location = new System.Drawing.Point(10, 10);
+            this.roundedPanelComboBoxFilterStatus.Margin = new System.Windows.Forms.Padding(0);
+            this.roundedPanelComboBoxFilterStatus.Name = "roundedPanelComboBoxFilterStatus";
+            this.roundedPanelComboBoxFilterStatus.Padding = new System.Windows.Forms.Padding(3);
+            this.roundedPanelComboBoxFilterStatus.Radius = 10;
+            this.roundedPanelComboBoxFilterStatus.Size = new System.Drawing.Size(118, 52);
+            this.roundedPanelComboBoxFilterStatus.TabIndex = 2;
             // 
-            // Copyright
+            // customComboBoxFilterStatus
             // 
-            this.Copyright.HeaderText = "Copyright";
-            this.Copyright.Name = "Copyright";
-            this.Copyright.ReadOnly = true;
-            // 
-            // BookStatus
-            // 
-            this.BookStatus.HeaderText = "Status";
-            this.BookStatus.Name = "BookStatus";
-            this.BookStatus.ReadOnly = true;
+            this.customComboBoxFilterStatus.BackColor = System.Drawing.Color.White;
+            this.customComboBoxFilterStatus.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxFilterStatus.BorderRadius = 10;
+            this.customComboBoxFilterStatus.BorderSize = 0;
+            this.customComboBoxFilterStatus.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customComboBoxFilterStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.customComboBoxFilterStatus.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customComboBoxFilterStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxFilterStatus.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxFilterStatus.Items.AddRange(new object[] {
+            "All",
+            "Available",
+            "Reserved",
+            "Borrowed"});
+            this.customComboBoxFilterStatus.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxFilterStatus.Location = new System.Drawing.Point(3, 3);
+            this.customComboBoxFilterStatus.Name = "customComboBoxFilterStatus";
+            this.customComboBoxFilterStatus.Size = new System.Drawing.Size(112, 46);
+            this.customComboBoxFilterStatus.TabIndex = 6;
+            this.customComboBoxFilterStatus.Texts = "Status";
+            this.customComboBoxFilterStatus.OnSelectedIndexChanged += new System.EventHandler(this.customComboBoxFilterStatus_OnSelectedIndexChanged);
             // 
             // BooksForm
             // 
@@ -551,15 +496,15 @@
             this.panelSecondSection.ResumeLayout(false);
             this.tableLayoutPanelSecondSection.ResumeLayout(false);
             this.panelComboBoxSortGenre.ResumeLayout(false);
-            this.roundedPanelomboBoxSortGenre.ResumeLayout(false);
             this.panelComboBoxSortCategory.ResumeLayout(false);
-            this.roundedPanelComboBox.ResumeLayout(false);
             this.panelAddbtn.ResumeLayout(false);
             this.panelComboBoxomboBoxFilterStatus.ResumeLayout(false);
-            this.roundedPanelComboBoxFilterStatus.ResumeLayout(false);
             this.panelSearchBook.ResumeLayout(false);
             this.panelBookTable.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudentBorrowerList)).EndInit();
+            this.roundedPanelomboBoxSortGenre.ResumeLayout(false);
+            this.roundedPanelComboBox.ResumeLayout(false);
+            this.roundedPanelComboBoxFilterStatus.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -579,13 +524,6 @@
         private System.Windows.Forms.Panel panelBookTable;
         private System.Windows.Forms.Panel panelComboBoxSortCategory;
         private System.Windows.Forms.DataGridView dataGridViewStudentBorrowerList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Title;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ISBN;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Genre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Publisher;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Copyright;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BookStatus;
         private RoundedPanel roundedPanelComboBox;
         private CustomComboBox customComboBoxSortCategory;
         private RoundedPanel roundedPanelComboBoxFilterStatus;

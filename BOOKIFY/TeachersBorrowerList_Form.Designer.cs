@@ -58,10 +58,6 @@
             this.tableLayoutPanelBorrowerListContent = new System.Windows.Forms.TableLayoutPanel();
             this.panelDatagridViewStudentBorrower = new System.Windows.Forms.Panel();
             this.dataGridViewStudentBorrowerList = new System.Windows.Forms.DataGridView();
-            this.TeacherID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TeacherName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Department = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TeacherActiveStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelHistoryTransactionHolder = new System.Windows.Forms.Panel();
             this.panelHistoryTransaction = new System.Windows.Forms.Panel();
             this.panelBorrowersHeaderHolder.SuspendLayout();
@@ -385,6 +381,7 @@
             this.customComboBoxSort.Size = new System.Drawing.Size(208, 50);
             this.customComboBoxSort.TabIndex = 6;
             this.customComboBoxSort.Texts = "Status";
+            this.customComboBoxSort.OnSelectedIndexChanged += new System.EventHandler(this.customComboBoxSort_OnSelectedIndexChanged);
             // 
             // panelSearch
             // 
@@ -549,11 +546,6 @@
             this.dataGridViewStudentBorrowerList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewStudentBorrowerList.ColumnHeadersHeight = 60;
             this.dataGridViewStudentBorrowerList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewStudentBorrowerList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.TeacherID,
-            this.TeacherName,
-            this.Department,
-            this.TeacherActiveStatus});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -591,30 +583,6 @@
             this.dataGridViewStudentBorrowerList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewStudentBorrowerList.Size = new System.Drawing.Size(395, 590);
             this.dataGridViewStudentBorrowerList.TabIndex = 11;
-            // 
-            // TeacherID
-            // 
-            this.TeacherID.HeaderText = "ID";
-            this.TeacherID.Name = "TeacherID";
-            this.TeacherID.ReadOnly = true;
-            // 
-            // TeacherName
-            // 
-            this.TeacherName.HeaderText = "Name";
-            this.TeacherName.Name = "TeacherName";
-            this.TeacherName.ReadOnly = true;
-            // 
-            // Department
-            // 
-            this.Department.HeaderText = "Department";
-            this.Department.Name = "Department";
-            this.Department.ReadOnly = true;
-            // 
-            // TeacherActiveStatus
-            // 
-            this.TeacherActiveStatus.HeaderText = "Status";
-            this.TeacherActiveStatus.Name = "TeacherActiveStatus";
-            this.TeacherActiveStatus.ReadOnly = true;
             // 
             // panelHistoryTransactionHolder
             // 
@@ -687,10 +655,6 @@
         private System.Windows.Forms.Panel panelHistoryTransactionHolder;
         private System.Windows.Forms.Panel panelHistoryTransaction;
         private System.Windows.Forms.DataGridView dataGridViewStudentBorrowerList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TeacherID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TeacherName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Department;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TeacherActiveStatus;
         private RoundedPanel roundedPanelComboBox;
         private CustomComboBox customComboBoxSort;
     }
