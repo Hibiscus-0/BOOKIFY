@@ -31,5 +31,22 @@ namespace BOOKIFY
         {
 
         }
+
+        private void roundedPanelIssuedBooks_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void rjButtonReserve_Click(object sender, EventArgs e)
+        {
+            var popup = new ReservedPopup_Form();
+            popup.ShowDialog();
+        }
+
+        private void rjButtonBorrow_Click(object sender, EventArgs e)
+        {
+            var popup = new BorrowedPopup_Form();
+            popup.ShowDialog();
+        }
     }
 }
