@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IssueBook_Form));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties37 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties38 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties39 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties40 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties41 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties42 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties43 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties44 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties45 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties46 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties47 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties48 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.panelIssueBookHeader = new System.Windows.Forms.Panel();
             this.panelIssueBook = new System.Windows.Forms.Panel();
             this.labelIssueBook = new System.Windows.Forms.Label();
@@ -63,25 +63,18 @@
             this.panelSpacer1 = new System.Windows.Forms.Panel();
             this.panelReturnDate = new System.Windows.Forms.Panel();
             this.panelReturnDateTextBox = new System.Windows.Forms.Panel();
-            this.roundedPanel2 = new BOOKIFY.RoundedPanel();
-            this.rjDatePickerReturnDate = new BOOKIFY.RJDatePicker();
             this.panelReturnDateLabel = new System.Windows.Forms.Panel();
             this.labelReturnDate = new System.Windows.Forms.Label();
             this.panelDateBorrowed = new System.Windows.Forms.Panel();
             this.panelDateBorrowedTextBox = new System.Windows.Forms.Panel();
-            this.roundedPanel1 = new BOOKIFY.RoundedPanel();
-            this.rjDatePickerDateBorrowed = new BOOKIFY.RJDatePicker();
             this.panelDateBorrowedLabel = new System.Windows.Forms.Panel();
             this.labelDateBorrowedLabel = new System.Windows.Forms.Label();
             this.panelIssuedBooks = new System.Windows.Forms.Panel();
             this.panelIssuedBooksTextBox = new System.Windows.Forms.Panel();
-            this.roundedPanelIssuedBooks = new BOOKIFY.RoundedPanel();
             this.panelIssuedBooksLabel = new System.Windows.Forms.Panel();
             this.labelIssuedBooks = new System.Windows.Forms.Label();
             this.panelBorrowerType = new System.Windows.Forms.Panel();
             this.panelBorrowerTypeTextBox = new System.Windows.Forms.Panel();
-            this.roundedPanelComboBox = new BOOKIFY.RoundedPanel();
-            this.customComboBoxBorrowerType = new BOOKIFY.CustomComboBox();
             this.panelBorrowerTypeLabel = new System.Windows.Forms.Panel();
             this.labelBorrowerType = new System.Windows.Forms.Label();
             this.panelBorrower = new System.Windows.Forms.Panel();
@@ -102,12 +95,16 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelDataGridView = new System.Windows.Forms.Panel();
             this.dataGridViewSearchBook = new System.Windows.Forms.DataGridView();
-            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ISBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BookStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelSearchBook = new System.Windows.Forms.Panel();
             this.panelSearchBookTextBox = new System.Windows.Forms.Panel();
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.roundedPanel2 = new BOOKIFY.RoundedPanel();
+            this.rjDatePickerReturnDate = new BOOKIFY.RJDatePicker();
+            this.roundedPanel1 = new BOOKIFY.RoundedPanel();
+            this.rjDatePickerDateBorrowed = new BOOKIFY.RJDatePicker();
+            this.roundedPanelIssuedBooks = new BOOKIFY.RoundedPanel();
+            this.roundedPanelComboBox = new BOOKIFY.RoundedPanel();
+            this.customComboBoxBorrowerType = new BOOKIFY.CustomComboBox();
             this.panelIssueBookHeader.SuspendLayout();
             this.panelIssueBook.SuspendLayout();
             this.panelIssueBookContent.SuspendLayout();
@@ -120,18 +117,15 @@
             this.tableLayoutPanelBtns.SuspendLayout();
             this.panelReturnDate.SuspendLayout();
             this.panelReturnDateTextBox.SuspendLayout();
-            this.roundedPanel2.SuspendLayout();
             this.panelReturnDateLabel.SuspendLayout();
             this.panelDateBorrowed.SuspendLayout();
             this.panelDateBorrowedTextBox.SuspendLayout();
-            this.roundedPanel1.SuspendLayout();
             this.panelDateBorrowedLabel.SuspendLayout();
             this.panelIssuedBooks.SuspendLayout();
             this.panelIssuedBooksTextBox.SuspendLayout();
             this.panelIssuedBooksLabel.SuspendLayout();
             this.panelBorrowerType.SuspendLayout();
             this.panelBorrowerTypeTextBox.SuspendLayout();
-            this.roundedPanelComboBox.SuspendLayout();
             this.panelBorrowerTypeLabel.SuspendLayout();
             this.panelBorrower.SuspendLayout();
             this.panelMemberTextBox.SuspendLayout();
@@ -146,6 +140,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchBook)).BeginInit();
             this.panelSearchBook.SuspendLayout();
             this.panelSearchBookTextBox.SuspendLayout();
+            this.roundedPanel2.SuspendLayout();
+            this.roundedPanel1.SuspendLayout();
+            this.roundedPanelComboBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelIssueBookHeader
@@ -377,37 +374,6 @@
             this.panelReturnDateTextBox.Size = new System.Drawing.Size(161, 68);
             this.panelReturnDateTextBox.TabIndex = 1;
             // 
-            // roundedPanel2
-            // 
-            this.roundedPanel2.BackgroundColor = System.Drawing.Color.White;
-            this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.roundedPanel2.BorderWidth = 3F;
-            this.roundedPanel2.Controls.Add(this.rjDatePickerReturnDate);
-            this.roundedPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roundedPanel2.Location = new System.Drawing.Point(10, 10);
-            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(0);
-            this.roundedPanel2.Name = "roundedPanel2";
-            this.roundedPanel2.Padding = new System.Windows.Forms.Padding(3);
-            this.roundedPanel2.Radius = 10;
-            this.roundedPanel2.Size = new System.Drawing.Size(141, 48);
-            this.roundedPanel2.TabIndex = 2;
-            // 
-            // rjDatePickerReturnDate
-            // 
-            this.rjDatePickerReturnDate.BackColor = System.Drawing.Color.Transparent;
-            this.rjDatePickerReturnDate.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjDatePickerReturnDate.BorderSize = 0;
-            this.rjDatePickerReturnDate.CalendarFont = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjDatePickerReturnDate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rjDatePickerReturnDate.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjDatePickerReturnDate.Location = new System.Drawing.Point(3, 3);
-            this.rjDatePickerReturnDate.MinimumSize = new System.Drawing.Size(4, 40);
-            this.rjDatePickerReturnDate.Name = "rjDatePickerReturnDate";
-            this.rjDatePickerReturnDate.Size = new System.Drawing.Size(135, 40);
-            this.rjDatePickerReturnDate.SkinColor = System.Drawing.Color.Transparent;
-            this.rjDatePickerReturnDate.TabIndex = 0;
-            this.rjDatePickerReturnDate.TextColor = System.Drawing.Color.Black;
-            // 
             // panelReturnDateLabel
             // 
             this.panelReturnDateLabel.Controls.Add(this.labelReturnDate);
@@ -455,37 +421,6 @@
             this.panelDateBorrowedTextBox.Size = new System.Drawing.Size(161, 68);
             this.panelDateBorrowedTextBox.TabIndex = 1;
             // 
-            // roundedPanel1
-            // 
-            this.roundedPanel1.BackgroundColor = System.Drawing.Color.White;
-            this.roundedPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.roundedPanel1.BorderWidth = 3F;
-            this.roundedPanel1.Controls.Add(this.rjDatePickerDateBorrowed);
-            this.roundedPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roundedPanel1.Location = new System.Drawing.Point(10, 10);
-            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.roundedPanel1.Name = "roundedPanel1";
-            this.roundedPanel1.Padding = new System.Windows.Forms.Padding(3);
-            this.roundedPanel1.Radius = 10;
-            this.roundedPanel1.Size = new System.Drawing.Size(141, 48);
-            this.roundedPanel1.TabIndex = 1;
-            // 
-            // rjDatePickerDateBorrowed
-            // 
-            this.rjDatePickerDateBorrowed.BackColor = System.Drawing.Color.Transparent;
-            this.rjDatePickerDateBorrowed.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjDatePickerDateBorrowed.BorderSize = 0;
-            this.rjDatePickerDateBorrowed.CalendarFont = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjDatePickerDateBorrowed.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rjDatePickerDateBorrowed.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjDatePickerDateBorrowed.Location = new System.Drawing.Point(3, 3);
-            this.rjDatePickerDateBorrowed.MinimumSize = new System.Drawing.Size(4, 40);
-            this.rjDatePickerDateBorrowed.Name = "rjDatePickerDateBorrowed";
-            this.rjDatePickerDateBorrowed.Size = new System.Drawing.Size(135, 40);
-            this.rjDatePickerDateBorrowed.SkinColor = System.Drawing.Color.Transparent;
-            this.rjDatePickerDateBorrowed.TabIndex = 0;
-            this.rjDatePickerDateBorrowed.TextColor = System.Drawing.Color.Black;
-            // 
             // panelDateBorrowedLabel
             // 
             this.panelDateBorrowedLabel.Controls.Add(this.labelDateBorrowedLabel);
@@ -531,19 +466,6 @@
             this.panelIssuedBooksTextBox.Size = new System.Drawing.Size(161, 165);
             this.panelIssuedBooksTextBox.TabIndex = 1;
             // 
-            // roundedPanelIssuedBooks
-            // 
-            this.roundedPanelIssuedBooks.BackgroundColor = System.Drawing.Color.White;
-            this.roundedPanelIssuedBooks.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.roundedPanelIssuedBooks.BorderWidth = 3F;
-            this.roundedPanelIssuedBooks.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roundedPanelIssuedBooks.Location = new System.Drawing.Point(10, 10);
-            this.roundedPanelIssuedBooks.Name = "roundedPanelIssuedBooks";
-            this.roundedPanelIssuedBooks.Radius = 10;
-            this.roundedPanelIssuedBooks.Size = new System.Drawing.Size(141, 145);
-            this.roundedPanelIssuedBooks.TabIndex = 0;
-            this.roundedPanelIssuedBooks.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanelIssuedBooks_Paint);
-            // 
             // panelIssuedBooksLabel
             // 
             this.panelIssuedBooksLabel.Controls.Add(this.labelIssuedBooks);
@@ -588,46 +510,6 @@
             this.panelBorrowerTypeTextBox.Padding = new System.Windows.Forms.Padding(10);
             this.panelBorrowerTypeTextBox.Size = new System.Drawing.Size(161, 68);
             this.panelBorrowerTypeTextBox.TabIndex = 1;
-            // 
-            // roundedPanelComboBox
-            // 
-            this.roundedPanelComboBox.BackgroundColor = System.Drawing.Color.White;
-            this.roundedPanelComboBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.roundedPanelComboBox.BorderWidth = 2F;
-            this.roundedPanelComboBox.Controls.Add(this.customComboBoxBorrowerType);
-            this.roundedPanelComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roundedPanelComboBox.Location = new System.Drawing.Point(10, 10);
-            this.roundedPanelComboBox.Margin = new System.Windows.Forms.Padding(0);
-            this.roundedPanelComboBox.Name = "roundedPanelComboBox";
-            this.roundedPanelComboBox.Padding = new System.Windows.Forms.Padding(3);
-            this.roundedPanelComboBox.Radius = 10;
-            this.roundedPanelComboBox.Size = new System.Drawing.Size(141, 48);
-            this.roundedPanelComboBox.TabIndex = 0;
-            // 
-            // customComboBoxBorrowerType
-            // 
-            this.customComboBoxBorrowerType.AutoCompleteCustomSource.AddRange(new string[] {
-            "Student",
-            "Teacher"});
-            this.customComboBoxBorrowerType.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.customComboBoxBorrowerType.BackColor = System.Drawing.Color.White;
-            this.customComboBoxBorrowerType.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxBorrowerType.BorderRadius = 10;
-            this.customComboBoxBorrowerType.BorderSize = 0;
-            this.customComboBoxBorrowerType.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customComboBoxBorrowerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.customComboBoxBorrowerType.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customComboBoxBorrowerType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxBorrowerType.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            this.customComboBoxBorrowerType.Items.AddRange(new object[] {
-            "Student",
-            "Teacher"});
-            this.customComboBoxBorrowerType.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            this.customComboBoxBorrowerType.Location = new System.Drawing.Point(3, 3);
-            this.customComboBoxBorrowerType.Name = "customComboBoxBorrowerType";
-            this.customComboBoxBorrowerType.Size = new System.Drawing.Size(135, 42);
-            this.customComboBoxBorrowerType.TabIndex = 6;
-            this.customComboBoxBorrowerType.Texts = "";
             // 
             // panelBorrowerTypeLabel
             // 
@@ -709,26 +591,26 @@
             this.bunifuTextBoxBorrower.Modified = false;
             this.bunifuTextBoxBorrower.Multiline = false;
             this.bunifuTextBoxBorrower.Name = "bunifuTextBoxBorrower";
-            stateProperties37.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties37.FillColor = System.Drawing.Color.Empty;
-            stateProperties37.ForeColor = System.Drawing.Color.Empty;
-            stateProperties37.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBoxBorrower.OnActiveState = stateProperties37;
-            stateProperties38.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties38.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBoxBorrower.OnDisabledState = stateProperties38;
-            stateProperties39.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties39.FillColor = System.Drawing.Color.Empty;
-            stateProperties39.ForeColor = System.Drawing.Color.Empty;
-            stateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBoxBorrower.OnHoverState = stateProperties39;
-            stateProperties40.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties40.FillColor = System.Drawing.Color.White;
-            stateProperties40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            stateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBoxBorrower.OnIdleState = stateProperties40;
+            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBoxBorrower.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBoxBorrower.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBoxBorrower.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBoxBorrower.OnIdleState = stateProperties4;
             this.bunifuTextBoxBorrower.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBoxBorrower.PasswordChar = '\0';
             this.bunifuTextBoxBorrower.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -830,26 +712,26 @@
             this.bunifuTextBoxID.Modified = false;
             this.bunifuTextBoxID.Multiline = false;
             this.bunifuTextBoxID.Name = "bunifuTextBoxID";
-            stateProperties41.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties41.FillColor = System.Drawing.Color.Empty;
-            stateProperties41.ForeColor = System.Drawing.Color.Empty;
-            stateProperties41.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBoxID.OnActiveState = stateProperties41;
-            stateProperties42.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties42.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBoxID.OnDisabledState = stateProperties42;
-            stateProperties43.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties43.FillColor = System.Drawing.Color.Empty;
-            stateProperties43.ForeColor = System.Drawing.Color.Empty;
-            stateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBoxID.OnHoverState = stateProperties43;
-            stateProperties44.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties44.FillColor = System.Drawing.Color.White;
-            stateProperties44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            stateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBoxID.OnIdleState = stateProperties44;
+            stateProperties5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBoxID.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBoxID.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBoxID.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBoxID.OnIdleState = stateProperties8;
             this.bunifuTextBoxID.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBoxID.PasswordChar = '\0';
             this.bunifuTextBoxID.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -996,39 +878,35 @@
             this.dataGridViewSearchBook.AllowUserToAddRows = false;
             this.dataGridViewSearchBook.AllowUserToDeleteRows = false;
             this.dataGridViewSearchBook.AllowUserToResizeColumns = false;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(111)))), ((int)(((byte)(121)))));
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewSearchBook.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(111)))), ((int)(((byte)(121)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewSearchBook.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewSearchBook.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewSearchBook.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(228)))), ((int)(((byte)(208)))));
             this.dataGridViewSearchBook.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewSearchBook.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridViewSearchBook.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(167)))), ((int)(((byte)(166)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(135)))), ((int)(((byte)(134)))));
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewSearchBook.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(167)))), ((int)(((byte)(166)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(135)))), ((int)(((byte)(134)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewSearchBook.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewSearchBook.ColumnHeadersHeight = 60;
             this.dataGridViewSearchBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewSearchBook.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Title,
-            this.ISBN,
-            this.BookStatus});
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewSearchBook.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewSearchBook.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewSearchBook.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewSearchBook.EnableHeadersVisualStyles = false;
             this.dataGridViewSearchBook.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(147)))), ((int)(((byte)(146)))));
@@ -1036,46 +914,28 @@
             this.dataGridViewSearchBook.Name = "dataGridViewSearchBook";
             this.dataGridViewSearchBook.ReadOnly = true;
             this.dataGridViewSearchBook.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(159)))), ((int)(((byte)(171)))));
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(56)))), ((int)(((byte)(76)))));
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewSearchBook.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(159)))), ((int)(((byte)(171)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(56)))), ((int)(((byte)(76)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewSearchBook.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewSearchBook.RowHeadersVisible = false;
             this.dataGridViewSearchBook.RowHeadersWidth = 60;
             this.dataGridViewSearchBook.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Montserrat", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridViewSearchBook.RowsDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Montserrat", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridViewSearchBook.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewSearchBook.RowTemplate.Height = 40;
             this.dataGridViewSearchBook.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewSearchBook.Size = new System.Drawing.Size(321, 455);
             this.dataGridViewSearchBook.TabIndex = 5;
-            // 
-            // Title
-            // 
-            this.Title.HeaderText = "Title";
-            this.Title.Name = "Title";
-            this.Title.ReadOnly = true;
-            // 
-            // ISBN
-            // 
-            this.ISBN.HeaderText = "ISBN";
-            this.ISBN.Name = "ISBN";
-            this.ISBN.ReadOnly = true;
-            // 
-            // BookStatus
-            // 
-            this.BookStatus.HeaderText = "Status";
-            this.BookStatus.Name = "BookStatus";
-            this.BookStatus.ReadOnly = true;
             // 
             // panelSearchBook
             // 
@@ -1133,26 +993,26 @@
             this.bunifuTextBox1.Modified = false;
             this.bunifuTextBox1.Multiline = false;
             this.bunifuTextBox1.Name = "bunifuTextBox1";
-            stateProperties45.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties45.FillColor = System.Drawing.Color.Empty;
-            stateProperties45.ForeColor = System.Drawing.Color.Empty;
-            stateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties45;
-            stateProperties46.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties46.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties46;
-            stateProperties47.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties47.FillColor = System.Drawing.Color.Empty;
-            stateProperties47.ForeColor = System.Drawing.Color.Empty;
-            stateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties47;
-            stateProperties48.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
-            stateProperties48.FillColor = System.Drawing.Color.White;
-            stateProperties48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
-            stateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties48;
+            stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            stateProperties12.FillColor = System.Drawing.Color.White;
+            stateProperties12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnIdleState = stateProperties12;
             this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -1173,6 +1033,121 @@
             this.bunifuTextBox1.TextPlaceholder = "Search Book";
             this.bunifuTextBox1.UseSystemPasswordChar = false;
             this.bunifuTextBox1.WordWrap = true;
+            // 
+            // roundedPanel2
+            // 
+            this.roundedPanel2.BackgroundColor = System.Drawing.Color.White;
+            this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.roundedPanel2.BorderWidth = 3F;
+            this.roundedPanel2.Controls.Add(this.rjDatePickerReturnDate);
+            this.roundedPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roundedPanel2.Location = new System.Drawing.Point(10, 10);
+            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.roundedPanel2.Name = "roundedPanel2";
+            this.roundedPanel2.Padding = new System.Windows.Forms.Padding(3);
+            this.roundedPanel2.Radius = 10;
+            this.roundedPanel2.Size = new System.Drawing.Size(141, 48);
+            this.roundedPanel2.TabIndex = 2;
+            // 
+            // rjDatePickerReturnDate
+            // 
+            this.rjDatePickerReturnDate.BackColor = System.Drawing.Color.Transparent;
+            this.rjDatePickerReturnDate.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjDatePickerReturnDate.BorderSize = 0;
+            this.rjDatePickerReturnDate.CalendarFont = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjDatePickerReturnDate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rjDatePickerReturnDate.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjDatePickerReturnDate.Location = new System.Drawing.Point(3, 3);
+            this.rjDatePickerReturnDate.MinimumSize = new System.Drawing.Size(4, 40);
+            this.rjDatePickerReturnDate.Name = "rjDatePickerReturnDate";
+            this.rjDatePickerReturnDate.Size = new System.Drawing.Size(135, 40);
+            this.rjDatePickerReturnDate.SkinColor = System.Drawing.Color.Transparent;
+            this.rjDatePickerReturnDate.TabIndex = 0;
+            this.rjDatePickerReturnDate.TextColor = System.Drawing.Color.Black;
+            // 
+            // roundedPanel1
+            // 
+            this.roundedPanel1.BackgroundColor = System.Drawing.Color.White;
+            this.roundedPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.roundedPanel1.BorderWidth = 3F;
+            this.roundedPanel1.Controls.Add(this.rjDatePickerDateBorrowed);
+            this.roundedPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roundedPanel1.Location = new System.Drawing.Point(10, 10);
+            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.roundedPanel1.Name = "roundedPanel1";
+            this.roundedPanel1.Padding = new System.Windows.Forms.Padding(3);
+            this.roundedPanel1.Radius = 10;
+            this.roundedPanel1.Size = new System.Drawing.Size(141, 48);
+            this.roundedPanel1.TabIndex = 1;
+            // 
+            // rjDatePickerDateBorrowed
+            // 
+            this.rjDatePickerDateBorrowed.BackColor = System.Drawing.Color.Transparent;
+            this.rjDatePickerDateBorrowed.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjDatePickerDateBorrowed.BorderSize = 0;
+            this.rjDatePickerDateBorrowed.CalendarFont = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjDatePickerDateBorrowed.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rjDatePickerDateBorrowed.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjDatePickerDateBorrowed.Location = new System.Drawing.Point(3, 3);
+            this.rjDatePickerDateBorrowed.MinimumSize = new System.Drawing.Size(4, 40);
+            this.rjDatePickerDateBorrowed.Name = "rjDatePickerDateBorrowed";
+            this.rjDatePickerDateBorrowed.Size = new System.Drawing.Size(135, 40);
+            this.rjDatePickerDateBorrowed.SkinColor = System.Drawing.Color.Transparent;
+            this.rjDatePickerDateBorrowed.TabIndex = 0;
+            this.rjDatePickerDateBorrowed.TextColor = System.Drawing.Color.Black;
+            // 
+            // roundedPanelIssuedBooks
+            // 
+            this.roundedPanelIssuedBooks.BackgroundColor = System.Drawing.Color.White;
+            this.roundedPanelIssuedBooks.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.roundedPanelIssuedBooks.BorderWidth = 3F;
+            this.roundedPanelIssuedBooks.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roundedPanelIssuedBooks.Location = new System.Drawing.Point(10, 10);
+            this.roundedPanelIssuedBooks.Name = "roundedPanelIssuedBooks";
+            this.roundedPanelIssuedBooks.Radius = 10;
+            this.roundedPanelIssuedBooks.Size = new System.Drawing.Size(141, 145);
+            this.roundedPanelIssuedBooks.TabIndex = 0;
+            this.roundedPanelIssuedBooks.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanelIssuedBooks_Paint);
+            // 
+            // roundedPanelComboBox
+            // 
+            this.roundedPanelComboBox.BackgroundColor = System.Drawing.Color.White;
+            this.roundedPanelComboBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.roundedPanelComboBox.BorderWidth = 2F;
+            this.roundedPanelComboBox.Controls.Add(this.customComboBoxBorrowerType);
+            this.roundedPanelComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roundedPanelComboBox.Location = new System.Drawing.Point(10, 10);
+            this.roundedPanelComboBox.Margin = new System.Windows.Forms.Padding(0);
+            this.roundedPanelComboBox.Name = "roundedPanelComboBox";
+            this.roundedPanelComboBox.Padding = new System.Windows.Forms.Padding(3);
+            this.roundedPanelComboBox.Radius = 10;
+            this.roundedPanelComboBox.Size = new System.Drawing.Size(141, 48);
+            this.roundedPanelComboBox.TabIndex = 0;
+            // 
+            // customComboBoxBorrowerType
+            // 
+            this.customComboBoxBorrowerType.AutoCompleteCustomSource.AddRange(new string[] {
+            "Student",
+            "Teacher"});
+            this.customComboBoxBorrowerType.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.customComboBoxBorrowerType.BackColor = System.Drawing.Color.White;
+            this.customComboBoxBorrowerType.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxBorrowerType.BorderRadius = 10;
+            this.customComboBoxBorrowerType.BorderSize = 0;
+            this.customComboBoxBorrowerType.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customComboBoxBorrowerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.customComboBoxBorrowerType.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customComboBoxBorrowerType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxBorrowerType.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(146)))), ((int)(((byte)(145)))));
+            this.customComboBoxBorrowerType.Items.AddRange(new object[] {
+            "Student",
+            "Teacher"});
+            this.customComboBoxBorrowerType.ListTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(70)))), ((int)(((byte)(93)))));
+            this.customComboBoxBorrowerType.Location = new System.Drawing.Point(3, 3);
+            this.customComboBoxBorrowerType.Name = "customComboBoxBorrowerType";
+            this.customComboBoxBorrowerType.Size = new System.Drawing.Size(135, 42);
+            this.customComboBoxBorrowerType.TabIndex = 6;
+            this.customComboBoxBorrowerType.Texts = "";
             // 
             // IssueBook_Form
             // 
@@ -1202,12 +1177,10 @@
             this.tableLayoutPanelBtns.ResumeLayout(false);
             this.panelReturnDate.ResumeLayout(false);
             this.panelReturnDateTextBox.ResumeLayout(false);
-            this.roundedPanel2.ResumeLayout(false);
             this.panelReturnDateLabel.ResumeLayout(false);
             this.panelReturnDateLabel.PerformLayout();
             this.panelDateBorrowed.ResumeLayout(false);
             this.panelDateBorrowedTextBox.ResumeLayout(false);
-            this.roundedPanel1.ResumeLayout(false);
             this.panelDateBorrowedLabel.ResumeLayout(false);
             this.panelDateBorrowedLabel.PerformLayout();
             this.panelIssuedBooks.ResumeLayout(false);
@@ -1216,7 +1189,6 @@
             this.panelIssuedBooksLabel.PerformLayout();
             this.panelBorrowerType.ResumeLayout(false);
             this.panelBorrowerTypeTextBox.ResumeLayout(false);
-            this.roundedPanelComboBox.ResumeLayout(false);
             this.panelBorrowerTypeLabel.ResumeLayout(false);
             this.panelBorrowerTypeLabel.PerformLayout();
             this.panelBorrower.ResumeLayout(false);
@@ -1234,6 +1206,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchBook)).EndInit();
             this.panelSearchBook.ResumeLayout(false);
             this.panelSearchBookTextBox.ResumeLayout(false);
+            this.roundedPanel2.ResumeLayout(false);
+            this.roundedPanel1.ResumeLayout(false);
+            this.roundedPanelComboBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1294,9 +1269,6 @@
         private RJCodeAdvance.RJControls.RJButton rjButtonBorrow;
         private System.Windows.Forms.Panel panelDataGridView;
         private System.Windows.Forms.DataGridView dataGridViewSearchBook;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Title;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ISBN;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BookStatus;
         private System.Windows.Forms.Panel panelRemove;
         private RJCodeAdvance.RJControls.RJButton rjButtonRemove;
         private System.Windows.Forms.Panel panelIssue;

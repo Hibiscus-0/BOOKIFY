@@ -16,7 +16,7 @@ namespace BOOKIFY
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PenaltyPopup_Form());
+            Application.Run(new LogInForm());
         }
     }
 }

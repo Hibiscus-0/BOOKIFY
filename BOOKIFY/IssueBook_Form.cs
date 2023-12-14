@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,15 @@ namespace BOOKIFY
         public IssueBook_Form()
         {
             InitializeComponent();
+            bookList books = new bookList();
+            ArrayList bookList = books.getBooks();
+            convertArrayListtoDataTable dt = new convertArrayListtoDataTable(bookList);
+            string[] columntodisplay = { "Title", "ISBN", "Status" };
+            DataTable data = dt.GetDataTable(bookList);
+            DataView dv = new DataView(data);
+            dv = new DataView(data.DefaultView.ToTable(false, columntodisplay));
+
+            dataGridViewSearchBook.DataSource = dv;
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
